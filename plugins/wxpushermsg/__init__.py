@@ -22,7 +22,7 @@ class WxPusherMsg(_PluginBase):
     # 插件图标 (请替换为你的插件图标 URL)
     plugin_icon = "https://raw.githubusercontent.com/uifor/MoviePilot-Plugins/main/icons/wxpusher.jpg"
     # 插件版本
-    plugin_version = "1.1"
+    plugin_version = "1.2"
     # 插件作者
     plugin_author = "uifor"
     # 作者主页 (请替换为你的 GitHub 链接)
@@ -270,7 +270,7 @@ class WxPusherMsg(_PluginBase):
                 if not self._uuid or not self._apptoken:
                     raise Exception("请配置 WxPusher 的 UUID 和 AppToken。")
 
-                url = "http://wxpusher.zjiecode.com/api/send/message"
+                url = "https://wxpusher.zjiecode.com/api/send/message"
                 data = {
                     "appToken": self._apptoken,
                     "content": text,
