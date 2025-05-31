@@ -2,13 +2,14 @@
     "WxPusherMsg": {
         "name": "WxPusher消息通知",
         "description": "支持使用WxPusher发送消息通知。",
-        "version": "1.1",
+        "version": "1.2",
         "labels": "消息通知",
         "icon": "https://raw.githubusercontent.com/uifor/MoviePilot-Plugins/main/icons/wxpusher.jpg",
         "author": "uifor",
         "level": 1,
         "v2": true,
         "history": {
+          "v1.2": "增加：支持https接口发送给消息",
           "v1.1": "增加：支持v2.0+使用。",
           "v1.0": "增加：支持使用Server酱发送消息通知。"
         }
